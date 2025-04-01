@@ -41,50 +41,59 @@ alert("Você tentou " + tentativas + palavraVez)
 //let nome = Lua;
 //let idade = 25;
 //let numeroDeVendas = 50;
-let saldoDisponivel = 1000;
+//let saldoDisponivel = 1000;
 let mensagemDeErro =  ("Erro! Preencha todos os campos");
-alert (mensagemDeErro);
+//alert (mensagemDeErro);
 let nome = prompt ("Nome:");
 let idade = prompt ("Idade:");
 if (idade >= 18){
-    alert("Pode tirar a habilitação!");
+    alert("Já pode ser preso hein..");
 }else {
-    alert("Você é fraco, lhe falta ódio!");
+    alert("Vai jogar Minecraft então!");
 }
 
 //Exercício da alura que não era necessário!
 diaDaSemana = prompt("Qual o dia da semana?");
 if (diaDaSemana == "Sabado" || diaDaSemana == "Sábado" || diaDaSemana == "sábado" || diaDaSemana == "sabado" || diaDaSemana == "Domingo" || diaDaSemana == "domingo"){
 alert("Bom fim de semana!");
+}else if (diaDaSemana == "Sexta" || diaDaSemana == "Sexta Feira" || diaDaSemana == "sexta" || diaDaSemana == "sexta feira" || diaDaSemana == "Sexta-Feira" || diaDaSemana == "sexta-feira" ){
+    alert("Sextou!");
 }else{
     alert("Boa semana!");
 }
+
+
+
 if (chute >= 0){
-   alert("O número digitado é um número positivo!");
+   alert("O número secreto foi um número positivo! Caso quisesse saber..");
 }else{
-    alert("O número digitado é um número negativo!");
+    alert("O número secreto foi um número negativo!Caso quisesse saber..");
 }
-if (pontos == 100){
-    alert ("Parabéns, você ganhou com a pontuação de " + pontos);
-}else{
-   alert ("Você perdeu com a pontuação de" + pontos);
-}
-alert("O saldo da conta é " + saldoDisponivel + ".");
+
+
+
+//if (pontos == 100){
+ //   alert ("Parabéns, você ganhou com a pontuação de " + pontos);
+//}else{
+  // alert ("Você perdeu com a pontuação de" + pontos);
+//}
+//alert("O saldo da conta é " + saldoDisponivel + ".");
+
 alert("Seja bem vindo " + nome + "!");
 
 //Exercício da alura que não era necessário!
-let numero = 0;
-while (numero != 11){
-    console.log(numero);
-   alert(numero);
-    numero++;
-}
-let numeroo = 10;
-while (numeroo != -1){
-   console.log(numeroo);
-    alert(numeroo);
-    numeroo--;
-}
+//let numero = 0;
+//while (numero != 11){
+//    console.log(numero);
+//   alert(numero);
+//    numero++;
+//}
+//let numeroo = 10;
+//while (numeroo != -1){
+//   console.log(numeroo);
+//    alert(numeroo);
+//    numeroo--;
+//}
 
 //Exercício da alura que não era necessário!
 console.log("Bem vindo!");
@@ -98,16 +107,19 @@ console.log("A soma de " + valor1 + " e " + valor2 + " é igual a " + resultado)
 resultado2 = valor1 - valor2;
 console.log("A diferença de " + valor1 + " e " + valor2 + " é igual a " + resultado2);
 if (idade >= 18){
-    alert("Você é de maior!");
+    alert("Você é de maior! Juízo hein..");
 }else {
     alert("Você é fraco, lhe falta ódio!");
 }
-let nota = parseInt(Math.random()*10+1);
-if (nota >= 7){
-    alert("Aprovado pois sua nota é igual a "+ nota +".");
-}else{
-    alert("Reprovado pois sua nota é igual a "+ nota +".");
-}
+
+
+
+//let nota = parseInt(Math.random()*10+1);
+//if (nota >= 7){
+//    alert("Aprovado pois sua nota é igual a "+ nota +".");
+//}else{
+//    alert("Reprovado pois sua nota é igual a "+ nota +".");
+//}
 let numeroConsole = Math.random();
 console.log(numeroConsole);
 let numeroConsole2 = parseInt(Math.random()*10+1);
