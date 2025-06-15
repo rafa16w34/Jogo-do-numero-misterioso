@@ -1,4 +1,4 @@
-alert("Ce ta baum meu fi?"); // alert exibe um aviso na guia
+alert("Seja Bem vindo.Ce ta baum meu fi?"); // alert exibe um aviso na guia
 let pontos = 0;
 let maximo = 100;
 let minimo = 1;
@@ -100,16 +100,19 @@ console.log("Bem vindo!");
 console.log("Olá " + nome + " !");
 let lingDeProg = prompt("Qual linguagem de programação você mais gosta?");
 console.log(lingDeProg);
-valor1 = 2;
-valor2 = 3;
-resultado = valor1 + valor2;
-console.log("A soma de " + valor1 + " e " + valor2 + " é igual a " + resultado);
-resultado2 = valor1 - valor2;
-console.log("A diferença de " + valor1 + " e " + valor2 + " é igual a " + resultado2);
+alert ("A linguagem de programação que você mais gosta é " + lingDeProg + ".");
+
+//valor1 = 2;
+//valor2 = 3;
+//resultado = valor1 + valor2;
+//console.log("A soma de " + valor1 + " e " + valor2 + " é igual a " + resultado);
+//resultado2 = valor1 - valor2;
+//console.log("A diferença de " + valor1 + " e " + valor2 + " é igual a " + resultado2);
+
 if (idade >= 18){
     alert("Você é de maior! Juízo hein..");
 }else {
-    alert("Você é fraco, lhe falta ódio!");
+    alert("Vai pra casa tomar café com leite!");
 }
 
 
