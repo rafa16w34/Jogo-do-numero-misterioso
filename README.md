@@ -1,2 +1,3 @@
 # Jogo do numero misterioso
- um jogo de adivinhar o numero
+
+Um simples jogo onde o objetivo principal é acertar um número misterioso, a partir de tentativa e erro.
